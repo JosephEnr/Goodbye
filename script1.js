@@ -2,12 +2,12 @@ function start(){
   alert("You da best");
 }
 function fav(){
-  var favs = Joseph 
-  var ques = readLine("whos your favorite student?");
-  if(ques==favs){
-    document.getElementById("answer").innerHTML="correct!!!";
+  var quest = prompt("Whos your favorite student?");
+  var favs = ("Joseph") ;
+  if(quest == favs){
+    document.getElementById("answer").innerHTML="Correct!!!";
   }
   else{
-    document.getElementById("answer").innerHTML="woops wrong anser";
+    document.getElementById("answer").innerHTML="Woops wrong answer";
   }
 }
